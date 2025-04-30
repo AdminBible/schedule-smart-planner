@@ -1,3 +1,4 @@
+
 import type { Config } from "tailwindcss";
 
 export default {
@@ -61,7 +62,33 @@ export default {
 					'accent-foreground': 'hsl(var(--sidebar-accent-foreground))',
 					border: 'hsl(var(--sidebar-border))',
 					ring: 'hsl(var(--sidebar-ring))'
+				},
+				timetable: {
+					primary: '#9b87f5',
+					secondary: '#7E69AB',
+					neutral: '#8E9196',
+					soft: '#D3E4FD',
+					softGray: '#F1F0FB',
+					dark: '#1A1F2C',
+					bright: '#1EAEDB',
+				},
+				subject: {
+					math: '#FF9F43',
+					physics: '#4A5568',
+					chemistry: '#38B2AC',
+					biology: '#68D391',
+					literature: '#9F7AEA',
+					history: '#F6AD55',
+					geography: '#4FD1C5',
+					languages: '#FC8181',
+					art: '#F687B3',
+					music: '#B794F4',
+					pe: '#63B3ED',
+					cs: '#4299E1',
 				}
+			},
+			fontFamily: {
+				sans: ['Inter', 'sans-serif'],
 			},
 			borderRadius: {
 				lg: 'var(--radius)',
